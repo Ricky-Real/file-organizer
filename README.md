@@ -75,7 +75,7 @@ python3 organizer.py ~/Downloads -r
 ```
 
 ### Before
-
+```
 Downloads/
 ├── photo.jpg
 ├── document.pdf
@@ -83,9 +83,9 @@ Downloads/
 └── projects/
     ├── script.py
     └── archive.zip
-
+```
 ### After
-
+```
 Downloads/
 └── output/
     ├── Documents/
@@ -98,7 +98,7 @@ Downloads/
     │   └── archive.zip
     └── Code/
         └── script.py
-
+```
 ## Safety
 
 Use `--dry-run` before organizing an unfamilliar directory.
