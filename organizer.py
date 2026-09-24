@@ -3,17 +3,18 @@ from pathlib import Path
 
 
 CATEGORIES = {
-    "Documents": {".pdf", ".doc", ".docx", ".odt", ".rtf"},
-    "Text": {".txt", ".md", ".csv", ".log"},
-    "Spreadsheets": {".xls", ".xlsx", ".ods"},
-    "Presentations": {".ppt", ".pptx", ".odp"},
-    "Images": {".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", ".bmp", ".tiff"},
-    "Audio": {".mp3", ".wav", ".flac", ".ogg", ".m4a", ".aac"},
-    "Videos": {".mp4", ".mkv", ".avi", ".mov", ".webm", ".flv"},
-    "Archives": {".zip", ".rar", ".7z", ".tar", ".gz", ".bz2", ".xz"},
-    "Disk Images": {".iso", ".img"},
+    "Documents": {".pdf", ".doc", ".docx", ".odt", ".rtf", ".pages", ".tex", ".epub", ".mobi"},
+    "Text": {".txt", ".md", ".csv", ".log", ".nfo", ".rst"},
+    "Spreadsheets": {".xls", ".xlsx", ".xlsm", ".ods", ".numbers"},
+    "Presentations": {".ppt", ".pptx", ".odp", ".key"},
+    "Images": {".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg", ".bmp", ".tiff", ".tif", ".ico", ".heic", ".heif", ".avif", ".raw"},
+    "Audio": {".mp3", ".wav", ".flac", ".ogg", ".m4a", ".aac", ".wma", ".opus", ".aiff"},
+    "Videos": {".mp4", ".mkv", ".avi", ".mov", ".webm", ".flv", ".wmv", ".m4v", ".mpeg", ".mpg", ".3gp"},
+    "Archives": {".zip", ".rar", ".7z", ".tar", ".gz", ".bz2", ".xz", ".zst", ".tgz", "tbz2"},
+    "Disk Images": {".iso", ".img", ".cue", ".dmg", ".vdi", ".vmdk", ".vhd", ".vhdx"},
     "Code": {".py", ".js", ".ts", ".java", ".c", ".cpp", ".h", ".hpp", ".rs", ".go", ".sh"},
-    "Executables": {".exe", ".msi", ".deb", ".rpm", ".appimage"},
+    "Executables": {".exe", ".msi", ".deb", ".rpm", ".appimage", ".run"},
+
 }
 
 
